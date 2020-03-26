@@ -20,4 +20,4 @@ Or, load the javascript library on top.
     
 To use the CDN resource, please set `$GLOBALS['TYPO3_CONF_VARS']['EXTCONF']['clipboard']['CDN']` in `ext_localconf.php` or `AdditionalConfiguration.php`.
 
-    $GLOBALS['TYPO3_CONF_VARS']['EXTCONF']['clipboard']['CDN'] = \Dagou\Clipboard\CDN\StackPath::class;
+    $GLOBALS['TYPO3_CONF_VARS']['EXTCONF']['clipboard']['CDN'] = \Dagou\Clipboard\CDN\jsDelivr::class;
