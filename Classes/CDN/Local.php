@@ -5,7 +5,7 @@ use Dagou\Clipboard\Traits\Asset;
 
 class Local extends AbstractCDN {
     use Asset;
-    const URL = 'EXT:Resources/Public/';
+    const URL = 'EXT:clipboard/Resources/Public/';
 
     /**
      * @param string|NULL $js
