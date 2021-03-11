@@ -1,6 +1,6 @@
 <?php
-namespace Dagou\Clipboard\CDN;
+namespace Dagou\Clipboard\Source;
 
-class cdnjs extends AbstractCDN {
+class CloudFlare extends AbstractSource {
     const URL = '//cdnjs.cloudflare.com/ajax/libs/clipboard/'.self::VERSION.'/';
 }
