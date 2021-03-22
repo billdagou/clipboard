@@ -8,14 +8,14 @@ EXT:clipboard allows you to use [Clipboard.js](https://clipboardjs.com/) in your
 
 You can load the library in your Fluid template.
 
-    <clipboard:load />
+    <clipboard:js />
 
 You can also load your own libraries.
 
-    <clipboard:load src="..." />
+    <clipboard:js src="..." />
 
 For more options please refer to &lt;f:asset.script&gt;.
 
 To use other Clipboard source, you can register it in `ext_localconf.php` or `AdditionalConfiguration.php`.
 
-    \Dagou\Clipboard\Utility\ExtensionUtility::registerSource(\Dagou\Clipboard\Source\jsDelivr::class);
+    \Dagou\Clipboard\Utility\ExtensionUtility::registerSource(\Dagou\Clipboard\Source\JsDelivr::class);
