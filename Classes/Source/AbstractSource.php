@@ -18,6 +18,6 @@ abstract class AbstractSource implements Source, SingletonInterface {
      * @return string
      */
     protected function getJsBuild(): string {
-        return 'bootstrap-colorpicker.min.js';
+        return 'clipboard.min.js';
     }
 }

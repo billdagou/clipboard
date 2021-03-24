@@ -10,7 +10,7 @@ You can load the library in your Fluid template.
 
     <clipboard:js />
 
-You can also load your own libraries.
+You can also load your own library.
 
     <clipboard:js src="..." />
 
