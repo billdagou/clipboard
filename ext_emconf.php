@@ -2,14 +2,14 @@
 $EM_CONF[$_EXTKEY] = [
     'title' => 'Clipboard.js',
     'description' => 'Clipboard.js, https://clipboardjs.com/',
+    'version' => '2.0.11',
     'category' => 'misc',
-    'author' => 'Bill.Dagou',
-    'author_email' => 'billdagou@gmail.com',
-    'version' => '2.0.8',
-    'state' => 'stable',
     'constraints' => [
         'depends' => [
-            'typo3' => '10.4.0-10.4.99',
+            'typo3' => '11.5.0-11.5.99',
         ],
     ],
+    'state' => 'stable',
+    'author' => 'Bill.Dagou',
+    'author_email' => 'billdagou@gmail.com',
 ];
