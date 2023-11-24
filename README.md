@@ -5,16 +5,9 @@ EXT:clipboard allows you to use [Clipboard.js](https://clipboardjs.com/) in your
 **The extension version only matches the Clipboard.js library version, it doesn't mean anything else.**
 
 ## How to use it
+You can load the library in your Fluid template easily.
 
-You can load the library in your Fluid template.
-
-    <clipboard:js />
-
-You can also load your own library.
-
-    <clipboard:js src="..." />
-
-For more options please refer to &lt;f:asset.script&gt;.
+    <f:asset.script identifier="clipboard" src="{clipboard:uri.js()}" />
 
 To use other Clipboard source, you can register it in `ext_localconf.php` or `AdditionalConfiguration.php`.
 
